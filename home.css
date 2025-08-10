@@ -21,7 +21,7 @@ body{
 }
 #home{
     background-color: #2c2c2c;
-    width:100%;
+    width: 100%;
     padding: 0;
 
 }
@@ -428,46 +428,34 @@ button {
     padding: 60px 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Tablet Layout*/
 @media(min-width:767px)and (max-width:1400px){
 
     .grid-container{
         grid-template-columns: repeat(2,1fr);
-        padding: 80px 40px;
+        padding: 40px 10px;
         column-gap: 60px;
-        padding-right: 20px;
         width:100%;
         margin: auto;
     
     }
+    .revew{
+    padding:20px 20px;
+}
+ .btn-1{
+        padding: 20px;
+        margin:  auto;
+        padding-left: 40px;
+       
+    }
+    #sign{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+h2.head{
+    margin-top: 5px;
+}
  
 }
 /*Mobile layout*/
@@ -475,6 +463,69 @@ button {
     .grid-container{
         grid-template-columns:repeat(1,1fr) ;
     }
+   
 
-    .nav { display: none;}
+    .nav-links { display: none;}
+    .flexbox-container{
+        padding: 40px 20px;
+      
+    }
+    .flexbox-item2{
+        height:30%;
+    }
+    .first-container{
+        padding-bottom: 0px;
+    }
+    .first-container img{
+        max-height:30vh;
+    }
+    .second-container{
+        padding: 0px;
+    }
+    .second-container img,.second-text{
+     display: none;
+   
+    }
+    .btn-1{
+        padding: 10px;
+        margin:  auto;
+       
+    }
+    .reviews-container{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+    }
+    .cont input{
+    outline: none;
+    display: block;
+   max-width: 300px;
+   
+}
+.grid-footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.footer-2 {
+    display: none;
+}
+.revew{
+    padding:20px 20px;
+}
+.form-container{
+ margin-top: 10px;
+ padding: 20px 10px;
+ padding-top: 3px;
+}
+#sign{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+h2.head{
+    margin-top: 5px;
+}
 }
